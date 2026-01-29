@@ -1,0 +1,140 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero {
+  animation: fadeIn 0.8s ease-out;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+  line-height: 1.1;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: var(--color-text-light);
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 3rem;
+  align-items: center;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  color: var(--color-text);
+  opacity: 0.9;
+}
+
+.featureIcon {
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ctaWrapper {
+  margin-bottom: 3rem;
+}
+
+.primaryButton {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 16px 32px;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.primaryButton:hover {
+  transform: scale(1.02);
+  opacity: 0.95;
+}
+
+.trustStrip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: var(--color-text-light);
+}
+
+.trustLabel {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.trustLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.trustLink {
+  color: var(--color-text-light);
+  text-decoration: none;
+  transition: color 0.1s ease;
+}
+
+.trustLink:hover {
+  color: var(--color-primary);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+  }
+
+  .main {
+    padding: 60px 20px;
+    justify-content: flex-start;
+  }
+}
