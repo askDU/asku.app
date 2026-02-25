@@ -4,7 +4,7 @@ export default function AppStorePage() {
     return (
         <article>
             <h1>App Store Reference</h1>
-            <div className="meta">Last updated: 2026-01-28</div>
+            <div className="meta">Last updated: 2026-02-25</div>
 
             <p>
                 The following resources provide essential information for users and App Store review teams regarding askU, the official campus companion for Denison University.
@@ -51,6 +51,18 @@ export default function AppStorePage() {
                 <li>
                     <strong><Link href="/legal/accessibility">Accessibility Statement</Link></strong>
                     <br />Our commitment to WCAG 2.1 AA compliance and inclusive design.
+                </li>
+                <li>
+                    <strong><Link href="/legal/dpa">Data Processing Agreement</Link></strong>
+                    <br />Formal agreement governing how student data is processed and protected.
+                </li>
+                <li>
+                    <strong><Link href="/legal/ferpa">FERPA Compliance</Link></strong>
+                    <br />Our compliance posture regarding student education records and data visibility.
+                </li>
+                <li>
+                    <strong><Link href="/legal/breach-notification">Breach Notification Procedure</Link></strong>
+                    <br />Our process for detecting, reporting, and responding to data breaches.
                 </li>
             </ul>
 

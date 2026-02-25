@@ -4,7 +4,7 @@ export default function SubprocessorsPage() {
     return (
         <article>
             <h1>Subprocessors</h1>
-            <div className="meta">Last updated: 2026-01-28</div>
+            <div className="meta">Last updated: 2026-02-25</div>
 
             <p>
                 To provide the askU service, we engage third-party service providers (subprocessors) to process data on our behalf. We verify that these providers maintain appropriate security and privacy standards.
@@ -41,6 +41,20 @@ export default function SubprocessorsPage() {
                         <td style={{ padding: '10px', border: '1px solid #ddd' }}>Pseudonymized Usage Events</td>
                         <td style={{ padding: '10px', border: '1px solid #ddd' }}>US (AWS)</td>
                         <td style={{ padding: '10px', border: '1px solid #ddd' }}><a href="https://posthog.com" target="_blank" rel="noopener noreferrer">posthog.com</a></td>
+                    </tr>
+                    <tr>
+                        <td style={{ padding: '10px', border: '1px solid #ddd' }}><strong>Apple</strong></td>
+                        <td style={{ padding: '10px', border: '1px solid #ddd' }}>App Store Distribution</td>
+                        <td style={{ padding: '10px', border: '1px solid #ddd' }}>App Binary, Public Metadata</td>
+                        <td style={{ padding: '10px', border: '1px solid #ddd' }}>Global</td>
+                        <td style={{ padding: '10px', border: '1px solid #ddd' }}><a href="https://apple.com" target="_blank" rel="noopener noreferrer">apple.com</a></td>
+                    </tr>
+                    <tr>
+                        <td style={{ padding: '10px', border: '1px solid #ddd' }}><strong>Apple</strong></td>
+                        <td style={{ padding: '10px', border: '1px solid #ddd' }}>Push Notification Service (APNs)</td>
+                        <td style={{ padding: '10px', border: '1px solid #ddd' }}>Device Tokens, Notification Payloads</td>
+                        <td style={{ padding: '10px', border: '1px solid #ddd' }}>Global</td>
+                        <td style={{ padding: '10px', border: '1px solid #ddd' }}><a href="https://apple.com" target="_blank" rel="noopener noreferrer">apple.com</a></td>
                     </tr>
                 </tbody>
             </table>

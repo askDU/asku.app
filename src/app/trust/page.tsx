@@ -10,7 +10,7 @@ export default function TrustPage() {
     return (
         <div>
             <div className="meta">
-                Last updated: 2026-01-28
+                Last updated: 2026-02-25
             </div>
 
             <h1>askU Trust Pack</h1>
@@ -23,6 +23,9 @@ export default function TrustPage() {
                 <ul className={styles.linksList}>
                     <li><Link href="/security">Security Center</Link></li>
                     <li><Link href="/legal/privacy">Privacy Policy</Link></li>
+                    <li><Link href="/legal/dpa">Data Processing Agreement</Link></li>
+                    <li><Link href="/legal/ferpa">FERPA Compliance</Link></li>
+                    <li><Link href="/legal/breach-notification">Breach Notification Procedure</Link></li>
                     <li><Link href="/legal/subprocessors">Subprocessors</Link></li>
                     <li><Link href="/legal/retention-deletion">Data Retention & Deletion</Link></li>
                 </ul>
@@ -59,7 +62,7 @@ export default function TrustPage() {
                 <h2>Contact</h2>
                 <p>
                     For specific security inquiries or updated documentation access:<br />
-                    <strong>[TBD: SECURITY_EMAIL]</strong>
+                    <a href="mailto:security@asku.app"><strong>security@asku.app</strong></a>
                 </p>
             </section>
         </div>
