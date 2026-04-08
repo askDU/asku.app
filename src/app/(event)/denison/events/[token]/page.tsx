@@ -34,13 +34,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: `https://asku.app/denison/events/${token}`,
       siteName: 'Union',
       type: 'website',
-      ...(event.imageUrl ? { images: [{ url: event.imageUrl }] } : {}),
     },
     twitter: {
       card: 'summary_large_image',
       title: event.title,
       description: ogDescription,
-      ...(event.imageUrl ? { images: [event.imageUrl] } : {}),
     },
     other: {
       'apple-itunes-app': `app-id=6744640581, app-argument=${deepLink}`,
