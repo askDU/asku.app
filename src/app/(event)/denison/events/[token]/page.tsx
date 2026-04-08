@@ -64,6 +64,30 @@ function shortenLocation(location: string): string {
   return short.trim().replace(/^[, ]+|[, ]+$/g, '')
 }
 
+function cleanDescription(raw: string): string | null {
+  if (!raw) return null
+  let clean = raw
+  // Take only content before --- separator
+  const sepIdx = clean.indexOf('---')
+  if (sepIdx !== -1) clean = clean.substring(0, sepIdx)
+  // Strip URLs
+  clean = clean.replace(/https?:\/\/\S+/g, '')
+  // Replace literal \n with spaces
+  clean = clean.replace(/\\n/g, ' ').replace(/\n/g, ' ')
+  // Clean up "Event Details:" labels
+  clean = clean.replace(/Event Details:\s*/gi, '')
+  // Collapse whitespace
+  clean = clean.replace(/\s+/g, ' ').trim()
+  if (!clean) return null
+  // Truncate at word boundary around 150 chars
+  if (clean.length > 150) {
+    const truncated = clean.substring(0, 150)
+    const lastSpace = truncated.lastIndexOf(' ')
+    clean = (lastSpace > 100 ? truncated.substring(0, lastSpace) : truncated) + '...'
+  }
+  return clean
+}
+
 function formatDate(iso: string, endIso?: string): string {
   const date = new Date(iso)
   if (isNaN(date.getTime())) return ''
@@ -169,7 +193,7 @@ export default function EventPage() {
 
   const dateStr = formatDate(event.startTime, event.endTime)
   const location = event.location ? shortenLocation(event.location) : null
-  const description = event.description ? event.description.substring(0, 150) : null
+  const description = event.description ? cleanDescription(event.description) : null
 
   return (
     <div style={{
