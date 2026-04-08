@@ -2,8 +2,9 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Calendar, MapPin, ExternalLink } from "lucide-react";
+import { Calendar, MapPin } from "lucide-react";
 import { ContainerScroll } from "@/components/ui/container-scroll-animation";
+import { LiquidButton } from "@/components/ui/liquid-glass-button";
 import type { EventData } from "@/lib/event-utils";
 
 const APP_STORE_URL = "https://apps.apple.com/app/asku-denison/id6744640581";
@@ -91,18 +92,13 @@ export default function EventCard({
 
           {/* CTA */}
           <div className="flex flex-col items-center gap-4 mt-8">
-            <button
+            <LiquidButton
               onClick={handleOpenApp}
-              className="w-full max-w-xs h-12 rounded-2xl bg-primary text-white font-semibold text-base
-                         flex items-center justify-center gap-2
-                         shadow-[0_2px_16px_rgba(196,30,58,0.3)]
-                         hover:shadow-[0_4px_24px_rgba(196,30,58,0.4)] hover:-translate-y-0.5
-                         active:translate-y-0 active:shadow-[0_1px_8px_rgba(196,30,58,0.2)]
-                         transition-all duration-200 cursor-pointer"
+              size="xl"
+              className="w-full max-w-xs text-primary font-semibold text-base"
             >
               Open in Union
-              <ExternalLink className="w-4 h-4" />
-            </button>
+            </LiquidButton>
             <span className="text-xs text-[#3A3A3C]">
               Union &middot; Denison University
             </span>
