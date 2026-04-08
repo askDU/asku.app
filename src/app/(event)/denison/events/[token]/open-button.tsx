@@ -15,24 +15,39 @@ export default function OpenInUnionButton({ eventId }: { eventId?: string }) {
   }
 
   return (
-    <button
-      onClick={handleClick}
-      style={{
-        display: 'block',
-        width: '100%',
-        textAlign: 'center',
-        background: '#C41E3A',
-        color: '#fff',
-        border: 'none',
-        fontSize: 16,
-        fontWeight: 600,
-        padding: '14px 24px',
-        borderRadius: 12,
-        cursor: 'pointer',
-        letterSpacing: -0.1,
-      }}
-    >
-      Open in Union
-    </button>
+    <>
+      <style>{`
+        .union-cta {
+          display: block;
+          width: 100%;
+          text-align: center;
+          background: linear-gradient(135deg, #C41E3A 0%, #D4283F 100%);
+          color: #fff;
+          border: none;
+          font-size: 16px;
+          font-weight: 600;
+          padding: 15px 24px;
+          border-radius: 14px;
+          cursor: pointer;
+          letter-spacing: -0.1px;
+          position: relative;
+          overflow: hidden;
+          transition: transform 0.15s ease, box-shadow 0.15s ease;
+          box-shadow: 0 2px 12px rgba(196,30,58,0.25);
+          font-family: inherit;
+        }
+        .union-cta:hover {
+          transform: translateY(-1px);
+          box-shadow: 0 4px 20px rgba(196,30,58,0.35);
+        }
+        .union-cta:active {
+          transform: translateY(0) scale(0.98);
+          box-shadow: 0 1px 8px rgba(196,30,58,0.2);
+        }
+      `}</style>
+      <button onClick={handleClick} className="union-cta">
+        Open in Union
+      </button>
+    </>
   )
 }
