@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Union — Campus Intelligence for Liberal Arts',
-  description: 'The privacy-safe campus intelligence platform for liberal arts colleges. Real-time dining, events, and insights — built for students, powered by data.',
+  title: 'Union — Campus Intelligence',
+  description: 'The campus intelligence platform for liberal arts colleges.',
 }
 
 export default function MarketingLayout({
@@ -20,15 +20,15 @@ export default function MarketingLayout({
             Union
           </Link>
           <nav className="flex items-center gap-6">
-            <Link href="/security" className="text-sm text-[#98989D] hover:text-white transition-colors hidden sm:block">
+            <Link href="/security" className="text-sm text-[#636366] hover:text-white transition-colors hidden sm:block">
               Security
             </Link>
-            <Link href="/legal/privacy" className="text-sm text-[#98989D] hover:text-white transition-colors hidden sm:block">
+            <Link href="/legal/privacy" className="text-sm text-[#636366] hover:text-white transition-colors hidden sm:block">
               Privacy
             </Link>
             <a
               href="mailto:partnerships@asku.app"
-              className="text-sm font-medium text-white bg-primary hover:bg-primary/90 px-4 py-2 rounded-lg transition-colors"
+              className="text-sm font-medium text-black bg-white hover:bg-white/90 px-4 py-2 rounded-lg transition-colors"
             >
               Request a Pilot
             </a>
@@ -41,46 +41,17 @@ export default function MarketingLayout({
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-white/[0.06] bg-[#08080A]">
-        <div className="max-w-6xl mx-auto px-6 py-16">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
-            <div>
-              <h3 className="text-sm font-semibold text-white mb-4">Product</h3>
-              <div className="flex flex-col gap-3">
-                <Link href="/security" className="text-sm text-[#636366] hover:text-white transition-colors">Security</Link>
-                <Link href="/legal/privacy" className="text-sm text-[#636366] hover:text-white transition-colors">Privacy</Link>
-              </div>
-            </div>
-            <div>
-              <h3 className="text-sm font-semibold text-white mb-4">Legal</h3>
-              <div className="flex flex-col gap-3">
-                <Link href="/legal/terms" className="text-sm text-[#636366] hover:text-white transition-colors">Terms of Service</Link>
-                <Link href="/legal/privacy" className="text-sm text-[#636366] hover:text-white transition-colors">Privacy Policy</Link>
-                <Link href="/legal/accessibility" className="text-sm text-[#636366] hover:text-white transition-colors">Accessibility</Link>
-              </div>
-            </div>
-            <div>
-              <h3 className="text-sm font-semibold text-white mb-4">Support</h3>
-              <div className="flex flex-col gap-3">
-                <Link href="/support" className="text-sm text-[#636366] hover:text-white transition-colors">Contact</Link>
-                <Link href="/support/data-deletion" className="text-sm text-[#636366] hover:text-white transition-colors">Data Deletion</Link>
-              </div>
-            </div>
-            <div>
-              <h3 className="text-sm font-semibold text-white mb-4">Company</h3>
-              <div className="flex flex-col gap-3">
-                <a href="mailto:partnerships@asku.app" className="text-sm text-[#636366] hover:text-white transition-colors">Partnerships</a>
-                <a href="mailto:hello@asku.app" className="text-sm text-[#636366] hover:text-white transition-colors">hello@asku.app</a>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8 border-t border-white/[0.06]">
+      <footer className="border-t border-white/[0.06]">
+        <div className="max-w-6xl mx-auto px-6 py-12">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <span className="text-xs text-[#3A3A3C]">
-              &copy; {new Date().getFullYear()} EdUnion LLC. All rights reserved.
+              &copy; {new Date().getFullYear()} EdUnion LLC
             </span>
-            <span className="text-xs text-[#3A3A3C]">
-              Columbus, OH 43215
-            </span>
+            <div className="flex items-center gap-6">
+              <Link href="/legal/privacy" className="text-xs text-[#3A3A3C] hover:text-white transition-colors">Privacy</Link>
+              <Link href="/legal/terms" className="text-xs text-[#3A3A3C] hover:text-white transition-colors">Terms</Link>
+              <Link href="/support" className="text-xs text-[#3A3A3C] hover:text-white transition-colors">Support</Link>
+            </div>
           </div>
         </div>
       </footer>
