@@ -1,0 +1,22 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "H93H5AVCCM.app.askU",
+          "WN8F9YG2RT.app.askU",
+          "3373R424RP.app.askU"
+        ],
+        "components": [
+          {
+            "/": "/denison/events/*"
+          },
+          {
+            "/": "/events/*"
+          }
+        ]
+      }
+    ]
+  }
+}
