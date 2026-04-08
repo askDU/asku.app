@@ -12,7 +12,7 @@ export default function MarketingLayout({
   children: React.ReactNode
 }) {
   return (
-    <>
+    <div className="marketing-layout">
       <header>
         <div className="container">
           <Link href="/" className="logo">askU</Link>
@@ -37,6 +37,6 @@ export default function MarketingLayout({
           </div>
         </div>
       </footer>
-    </>
+    </div>
   )
 }
