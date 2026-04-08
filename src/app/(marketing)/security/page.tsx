@@ -35,7 +35,7 @@ export default function SecurityPage() {
             <p>
                 We value the contributions of the security research community. If you believe you have found a security vulnerability in askU, please report it to us immediately.
             </p>
-            <p className="contact-box" style={{ background: '#f5f5f5', padding: '15px', borderRadius: '8px', marginBottom: '20px' }}>
+            <p className="contact-box">
                 <strong>Security Contact:</strong> <a href="mailto:security@asku.app">security@asku.app</a>
             </p>
 
@@ -44,7 +44,7 @@ export default function SecurityPage() {
                 We maintain an internal incident response plan to address security events promptly. In the event of a data breach affecting your personal information, we will notify you in accordance with applicable laws.
             </p>
 
-            <p style={{ marginTop: '40px', borderTop: '1px solid #eaeaea', paddingTop: '20px' }}>
+            <p className="mt-10 pt-5 border-t border-white/[0.06]">
                 For general questions about our security practices, please contact <a href="mailto:support@asku.app">support@asku.app</a>.
             </p>
         </article>

@@ -34,7 +34,7 @@ export default function AccessibilityPage() {
                 <li>Email: <a href="mailto:support@asku.app">support@asku.app</a></li>
             </ul>
 
-            <p style={{ marginTop: '40px', borderTop: '1px solid #eaeaea', paddingTop: '20px' }}>
+            <p className="footer-note">
                 We aim to respond to accessibility feedback within 2 business days.
             </p>
         </article>

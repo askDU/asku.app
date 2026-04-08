@@ -51,7 +51,7 @@ export default function PrivacyPage() {
                 <li>Request deletion of your data (See <Link href="/support/data-deletion">Deletion Instructions</Link>).</li>
             </ul>
 
-            <p style={{ marginTop: '40px', borderTop: '1px solid #eaeaea', paddingTop: '20px' }}>
+            <p className="mt-10 pt-5 border-t border-white/[0.06]">
                 If you have questions about this policy, please contact us at <a href="mailto:support@asku.app">support@asku.app</a>.
             </p>
         </article>

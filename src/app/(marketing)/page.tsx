@@ -9,7 +9,7 @@ export default function Home() {
 
       <div className="mt-10">
         <a
-          href="mailto:partnerships@asku.app"
+          href="mailto:info@asku.app"
           className="inline-flex items-center gap-2 h-12 px-8 rounded-xl bg-white text-black font-semibold
                      hover:bg-white/90 active:bg-white/80 transition-all duration-200"
         >

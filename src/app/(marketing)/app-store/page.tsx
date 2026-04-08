@@ -54,7 +54,7 @@ export default function AppStorePage() {
                 </li>
             </ul>
 
-            <p style={{ marginTop: '40px', borderTop: '1px solid #eaeaea', paddingTop: '20px' }}>
+            <p className="footer-note">
                 For expedited review inquiries, please <a href="mailto:support@asku.app">contact our team</a>.
             </p>
         </article>

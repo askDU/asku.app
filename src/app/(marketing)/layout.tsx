@@ -27,7 +27,7 @@ export default function MarketingLayout({
               Privacy
             </Link>
             <a
-              href="mailto:partnerships@asku.app"
+              href="mailto:info@asku.app"
               className="text-sm font-medium text-black bg-white hover:bg-white/90 px-4 py-2 rounded-lg transition-colors"
             >
               Request a Pilot

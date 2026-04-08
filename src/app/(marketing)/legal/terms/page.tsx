@@ -46,7 +46,7 @@ export default function TermsPage() {
             </p>
 
             <h2>7. Contact Us</h2>
-            <p style={{ marginTop: '40px', borderTop: '1px solid #eaeaea', paddingTop: '20px' }}>
+            <p className="footer-note">
                 If you have any questions about these Terms, please contact us at <a href="mailto:support@asku.app">support@asku.app</a>.
             </p>
         </article>

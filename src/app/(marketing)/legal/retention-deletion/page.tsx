@@ -40,7 +40,7 @@ export default function RetentionDeletionPage() {
                 <li><strong>Backup Expiry:</strong> Data may persist in encrypted backups for up to 30 additional days until those backups are rotated out.</li>
             </ul>
 
-            <p style={{ marginTop: '40px', borderTop: '1px solid #eaeaea', paddingTop: '20px' }}>
+            <p className="footer-note">
                 To request deletion, please see our <Link href="/support/data-deletion">Data Deletion Instructions</Link> or email <a href="mailto:support@asku.app">support@asku.app</a>.
             </p>
         </article>

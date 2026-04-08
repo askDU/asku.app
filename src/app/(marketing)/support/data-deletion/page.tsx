@@ -27,7 +27,7 @@ export default function DataDeletionPage() {
                 If you no longer have access to the app, you may submit a manual request via email. Please copy and paste the template below:
             </p>
 
-            <div style={{ background: '#f9f9f9', padding: '20px', borderRadius: '8px', border: '1px solid #eee', marginBottom: '20px' }}>
+            <div className="callout-box">
                 <p><strong>To:</strong> support@asku.app</p>
                 <p><strong>Subject:</strong> Data Deletion Request</p>
                 <p><strong>Body:</strong></p>
@@ -58,7 +58,7 @@ export default function DataDeletionPage() {
                 Once verified, we aim to process deletion requests within 30 days. You will receive a confirmation email once the process is complete.
             </p>
 
-            <p style={{ marginTop: '40px', borderTop: '1px solid #eaeaea', paddingTop: '20px' }}>
+            <p className="footer-note">
                 For more details on data retention, please see our <Link href="/legal/retention-deletion">Retention Policy</Link>.
             </p>
         </article>

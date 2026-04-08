@@ -19,7 +19,7 @@ export default function SupportPage() {
             <p>
                 For all inquiries, please email our support team directly:
             </p>
-            <p className="contact-box" style={{ background: '#f5f5f5', padding: '15px', borderRadius: '8px', marginBottom: '20px' }}>
+            <p className="contact-box">
                 <strong>Email:</strong> <a href="mailto:support@asku.app">support@asku.app</a>
             </p>
 
@@ -41,7 +41,7 @@ export default function SupportPage() {
                 <li><Link href="/support/data-deletion">Delete My Account</Link></li>
             </ul>
 
-            <p style={{ marginTop: '40px', borderTop: '1px solid #eaeaea', paddingTop: '20px' }}>
+            <p className="footer-note">
                 We aim to respond to all support inquiries within 2 business days.
             </p>
         </article>
