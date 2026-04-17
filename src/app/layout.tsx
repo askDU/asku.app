@@ -1,4 +1,5 @@
 import './globals.css'
+import { satoshi } from './fonts'
 
 export default function RootLayout({
   children,
@@ -6,7 +7,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={satoshi.variable}>
       <body>{children}</body>
     </html>
   )

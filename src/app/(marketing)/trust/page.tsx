@@ -2,8 +2,8 @@ import Link from 'next/link'
 import styles from './page.module.css'
 
 export const metadata = {
-    title: 'Trust Pack | askU',
-    description: 'Procurement and security evaluation documents for askU.',
+    title: 'Trust Pack',
+    description: 'Procurement and security evaluation documents for EdUnion.',
 }
 
 export default function TrustPage() {
@@ -13,9 +13,9 @@ export default function TrustPage() {
                 Last updated: 2026-01-28
             </div>
 
-            <h1>askU Trust Pack</h1>
+            <h1>EdUnion Trust Pack</h1>
             <p className={styles.intro}>
-                Documents for university evaluation
+                Documents for institutional evaluation of EdUnion products.
             </p>
 
             <section className={styles.section}>
@@ -59,7 +59,7 @@ export default function TrustPage() {
                 <h2>Contact</h2>
                 <p>
                     For specific security inquiries or updated documentation access:<br />
-                    <strong>[TBD: SECURITY_EMAIL]</strong>
+                    <strong><a href="mailto:security@asku.app">security@asku.app</a></strong>
                 </p>
             </section>
         </div>

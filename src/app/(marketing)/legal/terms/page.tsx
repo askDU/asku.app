@@ -7,17 +7,17 @@ export default function TermsPage() {
             <div className="meta">Last updated: 2026-01-28</div>
 
             <p>
-                Please read these Terms of Service ("Terms") carefully before using the askU mobile application ("Service") operated by the askU team ("us", "we", or "our").
+                Please read these Terms of Service ("Terms") carefully before using the <strong>union</strong> mobile application and related EdUnion services (collectively, the "Service") operated by <strong>EdUnion LLC</strong> ("us", "we", or "our").
             </p>
 
             <h2>1. Description of Service</h2>
             <p>
-                askU is a campus companion application provided for the Denison University community. It aggregates public information (events, dining, hours) and provides community features (marketplace) to facilitate campus life.
+                <strong>union</strong> is a campus companion application provided to students, faculty, and staff at partner institutions. It aggregates public information (events, dining, hours) and offers community features (such as a student marketplace) to facilitate campus life.
             </p>
 
             <h2>2. Acceptable Use</h2>
             <p>
-                You agree to use the Service only for lawful purposes and in accordance with Denison University's Student Code of Conduct. You must not:
+                You agree to use the Service only for lawful purposes and in accordance with your institution's acceptable-use policies and student code of conduct. You must not:
             </p>
             <ul>
                 <li>Use the Service to harass, abuse, or harm another person.</li>
@@ -32,7 +32,7 @@ export default function TermsPage() {
 
             <h2>4. Intellectual Property</h2>
             <p>
-                The Service and its original content, features, and functionality are and will remain the exclusive property of askU and its licensors.
+                The Service and its original content, features, and functionality are and will remain the exclusive property of <strong>EdUnion LLC</strong> and its licensors.
             </p>
 
             <h2>5. Termination</h2>

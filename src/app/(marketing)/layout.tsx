@@ -2,8 +2,31 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Union — Campus Intelligence',
-  description: 'The campus intelligence platform for liberal arts colleges.',
+  metadataBase: new URL('https://asku.app'),
+  title: {
+    default: 'EdUnion — Campus Intelligence Platform',
+    template: '%s · EdUnion',
+  },
+  description:
+    'EdUnion is a campus intelligence platform for liberal arts colleges.',
+  applicationName: 'EdUnion',
+  openGraph: {
+    type: 'website',
+    url: 'https://asku.app',
+    siteName: 'EdUnion',
+    title: 'EdUnion — Campus Intelligence Platform',
+    description:
+      'EdUnion is a campus intelligence platform for liberal arts colleges.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'EdUnion — Campus Intelligence Platform',
+    description:
+      'EdUnion is a campus intelligence platform for liberal arts colleges.',
+  },
+  alternates: {
+    canonical: 'https://asku.app',
+  },
 }
 
 export default function MarketingLayout({
@@ -17,18 +40,21 @@ export default function MarketingLayout({
       <header className="fixed top-0 left-0 right-0 z-50 border-b border-white/[0.06] bg-[#08080A]/80 backdrop-blur-xl">
         <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
           <Link href="/" className="text-lg font-bold tracking-tight text-white">
-            Union
+            EdUnion
           </Link>
           <nav className="flex items-center gap-6">
-            <Link href="/security" className="text-sm text-[#636366] hover:text-white transition-colors hidden sm:block">
+            <Link href="/about" className="nav-link text-sm text-[#636366] hover:text-white hidden sm:block">
+              About
+            </Link>
+            <Link href="/security" className="nav-link text-sm text-[#636366] hover:text-white hidden sm:block">
               Security
             </Link>
-            <Link href="/legal/privacy" className="text-sm text-[#636366] hover:text-white transition-colors hidden sm:block">
-              Privacy
+            <Link href="/contact" className="nav-link text-sm text-[#636366] hover:text-white hidden sm:block">
+              Contact
             </Link>
             <a
-              href="mailto:info@asku.app"
-              className="text-sm font-medium text-black bg-white hover:bg-white/90 px-4 py-2 rounded-lg transition-colors"
+              href="mailto:partnerships@asku.app?subject=Pilot%20request"
+              className="btn-primary text-sm font-medium text-black bg-white hover:bg-white/90 px-4 py-2 rounded-lg"
             >
               Request a Pilot
             </a>
@@ -48,9 +74,11 @@ export default function MarketingLayout({
               &copy; {new Date().getFullYear()} EdUnion LLC
             </span>
             <div className="flex items-center gap-6">
-              <Link href="/legal/privacy" className="text-xs text-[#3A3A3C] hover:text-white transition-colors">Privacy</Link>
-              <Link href="/legal/terms" className="text-xs text-[#3A3A3C] hover:text-white transition-colors">Terms</Link>
-              <Link href="/support" className="text-xs text-[#3A3A3C] hover:text-white transition-colors">Support</Link>
+              <Link href="/about" className="nav-link text-xs text-[#3A3A3C] hover:text-white">About</Link>
+              <Link href="/contact" className="nav-link text-xs text-[#3A3A3C] hover:text-white">Contact</Link>
+              <Link href="/legal/privacy" className="nav-link text-xs text-[#3A3A3C] hover:text-white">Privacy</Link>
+              <Link href="/legal/terms" className="nav-link text-xs text-[#3A3A3C] hover:text-white">Terms</Link>
+              <Link href="/support" className="nav-link text-xs text-[#3A3A3C] hover:text-white">Support</Link>
             </div>
           </div>
         </div>

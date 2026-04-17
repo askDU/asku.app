@@ -18,7 +18,7 @@ export default function SecurityPage() {
 
             <h2>2. Authentication</h2>
             <p>
-                We utilize secure authentication mechanisms to verify user identity. We integrate with Denison University's official Single Sign-On (SSO) infrastructure where possible, meaning we do not store your university passwords directly.
+                We utilize secure authentication mechanisms to verify user identity. Where supported, we integrate with your institution's Single Sign-On (SSO) provider, meaning we do not store university passwords directly.
             </p>
 
             <h2>3. Access Controls</h2>

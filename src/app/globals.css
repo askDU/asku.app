@@ -18,7 +18,9 @@
 }
 
 :root {
-  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-fallback: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 * {
@@ -26,10 +28,41 @@
 }
 
 body {
-  font-family: var(--font-sans);
+  font-family: var(--font-sans), var(--font-fallback);
   margin: 0;
   -webkit-font-smoothing: antialiased;
 }
+
+.btn-primary {
+  transition: transform 160ms var(--ease-out), background-color 160ms var(--ease-out);
+}
+
+.btn-primary:active {
+  transform: scale(0.97);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .nav-link {
+    transition: color 150ms var(--ease-out);
+  }
+}
+
+.hero-enter {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 500ms var(--ease-out), transform 500ms var(--ease-out);
+}
+
+@starting-style {
+  .hero-enter {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+.hero-enter-delay-1 { transition-delay: 60ms; }
+.hero-enter-delay-2 { transition-delay: 120ms; }
+.hero-enter-delay-3 { transition-delay: 180ms; }
 
 /* Content pages (Privacy, Security, Terms, etc.) */
 article {

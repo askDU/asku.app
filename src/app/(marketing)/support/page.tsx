@@ -7,12 +7,12 @@ export default function SupportPage() {
             <div className="meta">Last updated: 2026-01-28</div>
 
             <p>
-                Welcome to askU Support. We are dedicated to helping the Denison University community get the most out of their campus companion app.
+                Welcome to EdUnion Support. We help students, faculty, and staff at partner institutions get the most out of <strong>union</strong>, the campus companion app, along with the rest of the EdUnion product suite.
             </p>
 
-            <h2>What is askU?</h2>
+            <h2>What is union?</h2>
             <p>
-                askU is a privacy-first mobile application designed to help students, faculty, and staff navigate campus life. It provides consolidated access to dining menus, events, campus services, and the DULoop marketplace.
+                <strong>union</strong> is a privacy-first iOS app that consolidates dining menus, events, campus services, and a student marketplace into a single experience. It is built by <strong>EdUnion</strong> and deployed through partnerships with colleges and universities.
             </p>
 
             <h2>How to Get Help</h2>

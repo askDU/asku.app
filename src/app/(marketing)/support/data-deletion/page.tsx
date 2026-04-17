@@ -46,7 +46,7 @@ export default function DataDeletionPage() {
             <h2>What Gets Deleted</h2>
             <ul>
                 <li><strong>Account Profile:</strong> Name, email, and preferences.</li>
-                <li><strong>User Content:</strong> Any listings on DULoop, favorites, or saved items.</li>
+                <li><strong>User Content:</strong> Marketplace listings, favorites, and saved items.</li>
                 <li><strong>Activity History:</strong> Detailed interaction logs linked to your user ID.</li>
             </ul>
             <p>

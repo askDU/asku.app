@@ -7,13 +7,13 @@ export default function PrivacyPage() {
             <div className="meta">Last updated: 2026-01-28</div>
 
             <p>
-                At askU, we believe privacy is a fundamental right. We design our services with a minimization-first approach, collecting only the data strictly necessary to provide a useful campus companion experience. This policy explains what we collect, how we use it, and your rights regarding your information.
+                At <strong>EdUnion</strong>, we believe privacy is a fundamental right. We design our services — including the <strong>union</strong> iOS app — with a minimization-first approach, collecting only the data strictly necessary to provide a useful campus companion experience. This policy explains what we collect, how we use it, and your rights regarding your information.
             </p>
 
             <h2>1. Information We Collect</h2>
             <p>We limit data collection to the following categories:</p>
             <ul>
-                <li><strong>Account Information:</strong> When you log in via Denison University SSO, we receive basic profile information (Name, Email) to authenticate you.</li>
+                <li><strong>Account Information:</strong> When you log in via your institution's Single Sign-On (SSO) provider, we receive basic profile information (name, email) to authenticate you.</li>
                 <li><strong>Device Data:</strong> We collect technical data such as device model, OS version, and app version to ensure compatibility and debug crashes.</li>
                 <li><strong>Usage Analytics:</strong> We track anonymous interactions (e.g., "Screen Viewed", "Search Performed") to understand feature usage. Search queries are hashed or aggregated to prevent identifying individuals based on their questions.</li>
                 <li><strong>Preferences:</strong> Optional settings you configure (e.g., dietary restrictions, notification settings) are stored to personalize your experience.</li>
