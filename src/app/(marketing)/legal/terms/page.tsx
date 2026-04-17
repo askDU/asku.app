@@ -4,7 +4,7 @@ export default function TermsPage() {
     return (
         <article>
             <h1>Terms of Service</h1>
-            <div className="meta">Last updated: 2026-01-28</div>
+            <div className="meta">Last updated: 2026-04-16</div>
 
             <p>
                 Please read these Terms of Service ("Terms") carefully before using the <strong>union</strong> mobile application and related EdUnion services (collectively, the "Service") operated by <strong>EdUnion LLC</strong> ("us", "we", or "our").

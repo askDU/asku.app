@@ -4,7 +4,7 @@ export default function PrivacyPage() {
     return (
         <article>
             <h1>Privacy Policy</h1>
-            <div className="meta">Last updated: 2026-01-28</div>
+            <div className="meta">Last updated: 2026-04-16</div>
 
             <p>
                 At <strong>EdUnion</strong>, we believe privacy is a fundamental right. We design our services — including the <strong>union</strong> iOS app — with a minimization-first approach, collecting only the data strictly necessary to provide a useful campus companion experience. This policy explains what we collect, how we use it, and your rights regarding your information.

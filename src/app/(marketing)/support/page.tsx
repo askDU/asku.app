@@ -4,7 +4,7 @@ export default function SupportPage() {
     return (
         <article>
             <h1>Support Center</h1>
-            <div className="meta">Last updated: 2026-01-28</div>
+            <div className="meta">Last updated: 2026-04-16</div>
 
             <p>
                 Welcome to EdUnion Support. We help students, faculty, and staff at partner institutions get the most out of <strong>union</strong>, the campus companion app, along with the rest of the EdUnion product suite.
@@ -29,7 +29,7 @@ export default function SupportPage() {
             </p>
             <ul>
                 <li>Your device model (e.g., iPhone 13 Pro)</li>
-                <li>Your iOS version (e.g., iOS 17.2)</li>
+                <li>Your iOS version (e.g., iOS 19.3)</li>
                 <li>A brief description of the problem</li>
                 <li>Screenshots or screen recordings (if applicable)</li>
             </ul>

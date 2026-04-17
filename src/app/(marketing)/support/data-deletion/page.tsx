@@ -4,7 +4,7 @@ export default function DataDeletionPage() {
     return (
         <article>
             <h1>Request Data Deletion</h1>
-            <div className="meta">Last updated: 2026-01-28</div>
+            <div className="meta">Last updated: 2026-04-16</div>
 
             <p>
                 askU respects your right to be forgotten. Users may request the deletion of their account and associated personal data at any time. This page outlines the process for making such a request.

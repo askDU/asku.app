@@ -10,7 +10,7 @@ export default function TrustPage() {
     return (
         <div>
             <div className="meta">
-                Last updated: 2026-01-28
+                Last updated: 2026-04-16
             </div>
 
             <h1>EdUnion Trust Pack</h1>

@@ -11,7 +11,7 @@ export default function AboutPage() {
   return (
     <article>
       <h1>About EdUnion</h1>
-      <div className="meta">Ohio, USA · Founded 2025</div>
+      <div className="meta">Columbus, Ohio · Founded 2025 · Incorporated 2026</div>
 
       <p>
         <strong>EdUnion</strong> builds the campus intelligence platform for

@@ -4,7 +4,7 @@ export default function RetentionDeletionPage() {
     return (
         <article>
             <h1>Data Retention & Deletion Policy</h1>
-            <div className="meta">Last updated: 2026-01-28</div>
+            <div className="meta">Last updated: 2026-04-16</div>
 
             <p>
                 askU retains data only for as long as necessary to provide our service, ensure security, and comply with applicable laws. This policy outlines our standard retention periods and your deletion rights.

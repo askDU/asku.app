@@ -4,15 +4,15 @@ export default function SecurityPage() {
     return (
         <article>
             <h1>Security Overview</h1>
-            <div className="meta">Last updated: 2026-01-28</div>
+            <div className="meta">Last updated: 2026-04-16</div>
 
             <p>
-                The security of user data is a top priority for askU. This document outlines the technical and organizational measures we take to protect your information.
+                The security of user data is a top priority for <strong>EdUnion</strong>. This document outlines the technical and organizational measures we take to protect your information across our products, including the <strong>union</strong> iOS app.
             </p>
 
             <h2>1. Data Protection</h2>
             <ul>
-                <li><strong>Encryption in Transit:</strong> All data transmitted between the askU app and our servers is encrypted using standard TLS 1.2+ protocols.</li>
+                <li><strong>Encryption in Transit:</strong> All data transmitted between our apps and our servers is encrypted using standard TLS 1.2+ protocols.</li>
                 <li><strong>Encryption at Rest:</strong> Sensitive data stored in our databases is encrypted at rest using industry-standard AES-256 encryption.</li>
             </ul>
 
@@ -33,7 +33,7 @@ export default function SecurityPage() {
 
             <h2>5. Vulnerability Reporting</h2>
             <p>
-                We value the contributions of the security research community. If you believe you have found a security vulnerability in askU, please report it to us immediately.
+                We value the contributions of the security research community. If you believe you have found a security vulnerability in any EdUnion product, please report it to us immediately.
             </p>
             <p className="contact-box">
                 <strong>Security Contact:</strong> <a href="mailto:security@asku.app">security@asku.app</a>

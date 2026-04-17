@@ -4,7 +4,7 @@ export default function SubprocessorsPage() {
     return (
         <article>
             <h1>Subprocessors</h1>
-            <div className="meta">Last updated: 2026-01-28</div>
+            <div className="meta">Last updated: 2026-04-16</div>
 
             <p>
                 To provide the askU service, we engage third-party service providers (subprocessors) to process data on our behalf. We verify that these providers maintain appropriate security and privacy standards.

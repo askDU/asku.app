@@ -4,7 +4,7 @@ export default function AppStorePage() {
     return (
         <article>
             <h1>App Store Reference</h1>
-            <div className="meta">Last updated: 2026-01-28</div>
+            <div className="meta">Last updated: 2026-04-16</div>
 
             <p>
                 The following resources provide essential information for users and App Store review teams regarding <strong>union</strong>, the campus companion iOS app built by <strong>EdUnion</strong> and deployed through partnerships with colleges and universities.

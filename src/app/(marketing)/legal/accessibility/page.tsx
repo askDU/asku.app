@@ -4,7 +4,7 @@ export default function AccessibilityPage() {
     return (
         <article>
             <h1>Accessibility Statement</h1>
-            <div className="meta">Last updated: 2026-01-28</div>
+            <div className="meta">Last updated: 2026-04-16</div>
 
             <p>
                 askU is committed to ensuring digital accessibility for people with disabilities. We are continually strictly improving the user experience for everyone and applying the relevant accessibility standards.
