@@ -11,10 +11,6 @@ export default function Home() {
         Student experience. Institutional intelligence.
       </p>
 
-      <div className="hero-enter hero-enter-delay-2 mt-6 inline-flex items-center h-8 px-4 rounded-full border border-white/10 bg-white/[0.04] text-xs font-medium text-[#AEAEB2]">
-        Official Anthropic Partner
-      </div>
-
       <div className="hero-enter hero-enter-delay-3 mt-10">
         <a
           href="mailto:partnerships@asku.app?subject=Pilot%20request"
