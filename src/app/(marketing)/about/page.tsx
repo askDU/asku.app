@@ -3,8 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'About',
-  description:
-    'EdUnion is a campus intelligence platform for liberal arts colleges.',
+  description: 'EdUnion builds software for colleges.',
 }
 
 export default function AboutPage() {
@@ -14,12 +13,11 @@ export default function AboutPage() {
       <div className="meta">Columbus, Ohio · Founded 2025 · Incorporated 2026</div>
 
       <p>
-        <strong>EdUnion</strong> builds the campus intelligence platform for
-        liberal arts colleges — a unified software layer that consolidates
-        classes, events, dining, services, and student life into a single,
-        accessible experience. We work directly with institutions to deliver a
-        modern alternative to fragmented portals, email blasts, and one-off
-        apps.
+        <strong>EdUnion</strong> builds software for colleges — a unified layer
+        that brings classes, events, dining, services, and student life into a
+        single, accessible experience. We work directly with institutions to
+        deliver a modern alternative to fragmented portals, email blasts, and
+        one-off apps.
       </p>
 
       <h2>Values</h2>
