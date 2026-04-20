@@ -12,11 +12,9 @@ export default function AboutPage() {
       <h1>About EdUnion</h1>
 
       <p>
-        <strong>EdUnion</strong> builds software for colleges — a unified layer
-        that brings classes, events, dining, services, and student life into a
-        single, accessible experience. We work directly with institutions to
-        deliver a modern alternative to fragmented portals, email blasts, and
-        one-off apps.
+        <strong>EdUnion</strong> builds software for colleges. We work directly
+        with institutions to deliver a modern alternative to fragmented
+        portals, email blasts, and one-off apps.
       </p>
 
       <h2>Values</h2>
