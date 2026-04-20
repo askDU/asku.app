@@ -4,25 +4,22 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   metadataBase: new URL('https://asku.app'),
   title: {
-    default: 'EdUnion — Campus Intelligence Platform',
+    default: 'EdUnion',
     template: '%s · EdUnion',
   },
-  description:
-    'EdUnion is a campus intelligence platform for liberal arts colleges.',
+  description: 'EdUnion builds software for colleges.',
   applicationName: 'EdUnion',
   openGraph: {
     type: 'website',
     url: 'https://asku.app',
     siteName: 'EdUnion',
-    title: 'EdUnion — Campus Intelligence Platform',
-    description:
-      'EdUnion is a campus intelligence platform for liberal arts colleges.',
+    title: 'EdUnion',
+    description: 'EdUnion builds software for colleges.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'EdUnion — Campus Intelligence Platform',
-    description:
-      'EdUnion is a campus intelligence platform for liberal arts colleges.',
+    title: 'EdUnion',
+    description: 'EdUnion builds software for colleges.',
   },
   alternates: {
     canonical: 'https://asku.app',
