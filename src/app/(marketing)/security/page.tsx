@@ -7,7 +7,7 @@ export default function SecurityPage() {
             <div className="meta">Last updated: 2026-04-16</div>
 
             <p>
-                The security of user data is a top priority for <strong>EdUnion</strong>. This document outlines the technical and organizational measures we take to protect your information across our products, including the <strong>union</strong> iOS app.
+                The security of user data is a top priority for <strong>EdUnion</strong>. This document outlines the technical and organizational measures we take to protect your information across our products.
             </p>
 
             <h2>1. Data Protection</h2>

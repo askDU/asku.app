@@ -7,12 +7,12 @@ export default function TermsPage() {
             <div className="meta">Last updated: 2026-04-16</div>
 
             <p>
-                Please read these Terms of Service ("Terms") carefully before using the <strong>union</strong> mobile application and related EdUnion services (collectively, the "Service") operated by <strong>EdUnion LLC</strong> ("us", "we", or "our").
+                Please read these Terms of Service ("Terms") carefully before using EdUnion services (collectively, the "Service") operated by <strong>EdUnion LLC</strong> ("us", "we", or "our").
             </p>
 
             <h2>1. Description of Service</h2>
             <p>
-                <strong>union</strong> is a campus companion application provided to students, faculty, and staff at partner institutions. It aggregates public information (events, dining, hours) and offers community features (such as a student marketplace) to facilitate campus life.
+                The Service is provided by EdUnion to students, faculty, and staff at partner institutions to support everyday campus life.
             </p>
 
             <h2>2. Acceptable Use</h2>
@@ -27,7 +27,7 @@ export default function TermsPage() {
 
             <h2>3. Disclaimer</h2>
             <p>
-                The Service is provided on an "AS IS" and "AS AVAILABLE" basis. While we strive for accuracy, we cannot guarantee that information (e.g., dining menus, bus times) is always 100% real-time or error-free. Information provided by the Service should not be considered an official communication from the university administration unless explicitly stated.
+                The Service is provided on an "AS IS" and "AS AVAILABLE" basis. While we strive for accuracy, we cannot guarantee that information is always 100% real-time or error-free. Information provided by the Service should not be considered an official communication from the institution's administration unless explicitly stated.
             </p>
 
             <h2>4. Intellectual Property</h2>

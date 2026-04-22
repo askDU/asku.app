@@ -7,7 +7,7 @@ export default function PrivacyPage() {
             <div className="meta">Last updated: 2026-04-16</div>
 
             <p>
-                At <strong>EdUnion</strong>, we believe privacy is a fundamental right. We design our services — including the <strong>union</strong> iOS app — with a minimization-first approach, collecting only the data strictly necessary to provide a useful campus companion experience. This policy explains what we collect, how we use it, and your rights regarding your information.
+                At <strong>EdUnion</strong>, we believe privacy is a fundamental right. We design our services with a minimization-first approach, collecting only the data strictly necessary to provide a useful campus experience. This policy explains what we collect, how we use it, and your rights regarding your information.
             </p>
 
             <h2>1. Information We Collect</h2>
@@ -22,7 +22,7 @@ export default function PrivacyPage() {
             <h2>2. How We Use Your Data</h2>
             <p>Your data is used solely for the following purposes:</p>
             <ul>
-                <li><strong>Service Delivery:</strong> To provide core app functions like dining menus, event calendars, and marketplace listings.</li>
+                <li><strong>Service Delivery:</strong> To provide core product functionality to the campus community.</li>
                 <li><strong>Improvement:</strong> To identify bugs, optimize performance, and understand which features are most valuable to the community.</li>
                 <li><strong>Communication:</strong> To send important updates about the service (e.g., security alerts) or respond to your support requests.</li>
             </ul>
@@ -35,7 +35,7 @@ export default function PrivacyPage() {
 
             <h2>4. Data Sharing</h2>
             <p>
-                We may share data with trusted third-party service providers (subprocessors) solely for the purpose of operating the app (e.g., hosting, database management). These providers are contractually obligated to protect your data. See our <Link href="/legal/subprocessors">List of Subprocessors</Link> for details.
+                We may share data with trusted third-party service providers (subprocessors) solely for the purpose of operating the service (e.g., hosting, database management). These providers are contractually obligated to protect your data. See our <Link href="/legal/subprocessors">List of Subprocessors</Link> for details.
             </p>
 
             <h2>5. Retention</h2>

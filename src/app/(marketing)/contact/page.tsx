@@ -41,9 +41,8 @@ export default function ContactPage() {
 
       <h2>Partnerships</h2>
       <p>
-        If you represent a college or university interested in piloting{' '}
-        <strong>union</strong>, <strong>intersection</strong>, or{' '}
-        <strong>askU</strong> on your campus, email{' '}
+        If you represent a college or university interested in piloting
+        EdUnion on your campus, email{' '}
         <a href="mailto:partnerships@asku.app">partnerships@asku.app</a> with a
         short note about your institution and student population.
       </p>

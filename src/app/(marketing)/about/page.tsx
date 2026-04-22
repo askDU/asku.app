@@ -15,18 +15,17 @@ export default function AboutPage() {
 
       <p>
         <strong>EdUnion</strong> builds the campus intelligence platform for
-        liberal arts colleges — a unified software layer that consolidates
-        classes, events, dining, services, and student life into a single,
-        accessible experience. We work directly with institutions to deliver a
-        modern alternative to fragmented portals, email blasts, and one-off
-        apps.
+        liberal arts colleges — a unified software layer that brings together
+        the information and services students rely on every day. We work
+        directly with institutions to deliver a modern alternative to
+        fragmented portals, email blasts, and one-off apps.
       </p>
 
       <h2>Values</h2>
       <ul>
         <li><strong>Privacy-first:</strong> we minimize data collection and favor on-device personalization wherever possible.</li>
         <li><strong>Accessibility by default:</strong> Dynamic Type, VoiceOver, and reduced-motion support ship with every release.</li>
-        <li><strong>Institution-aligned:</strong> we integrate with existing SSO, calendar, and dining systems rather than replacing them.</li>
+        <li><strong>Institution-aligned:</strong> we integrate with existing campus systems rather than replacing them.</li>
       </ul>
 
       <h2>Contact</h2>

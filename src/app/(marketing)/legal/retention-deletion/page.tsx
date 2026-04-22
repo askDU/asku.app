@@ -7,7 +7,7 @@ export default function RetentionDeletionPage() {
             <div className="meta">Last updated: 2026-04-16</div>
 
             <p>
-                askU retains data only for as long as necessary to provide our service, ensure security, and comply with applicable laws. This policy outlines our standard retention periods and your deletion rights.
+                EdUnion retains data only for as long as necessary to provide our service, ensure security, and comply with applicable laws. This policy outlines our standard retention periods and your deletion rights.
             </p>
 
             <h2>1. Retention Categories</h2>

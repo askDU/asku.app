@@ -7,7 +7,7 @@ export default function SubprocessorsPage() {
             <div className="meta">Last updated: 2026-04-16</div>
 
             <p>
-                To provide the askU service, we engage third-party service providers (subprocessors) to process data on our behalf. We verify that these providers maintain appropriate security and privacy standards.
+                To provide EdUnion services, we engage third-party service providers (subprocessors) to process data on our behalf. We verify that these providers maintain appropriate security and privacy standards.
             </p>
 
             <table>
